@@ -39,7 +39,7 @@ class BindingPocketFeaturizer(Featurizer):
     protein_file: str
       Location of PDB file. Will be loaded by MDTraj
     pockets: list
-      TODO
+      Keys which uniquely identify pockets in `pocket_atoms_map` 
     pocket_atoms_map: dict
       Maps pockets to a list of atoms in the pocket
     pocket_coords: list
